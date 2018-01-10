@@ -28,15 +28,29 @@ public class Player {
         return cards.size();
     }
 
-    public int calculatePointsTotal(){
+    public void addCard(Card card){
+        cards.add(card);
+    }
+
+    public void removeCards(){
+        cards.clear();
+    }
+
+    public int calculateHandTotal(){
         this.handTotal = 0;
         for (Card card: this.cards ){
             this.handTotal += card.getRank().getValue();
         }
+        //System.out.println(this.name);
+        //System.out.println(this.handTotal);
         return this.handTotal;
     }
 
     public int getHandTotal() {
         return this.handTotal;
+    }
+
+    public void addPoint() {
+        pointsTotal+=1;
     }
 }
