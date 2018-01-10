@@ -17,16 +17,9 @@ public class Deck {
             }
 
         }
+        
         this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
-        this.shuffleCards();
+
     }
 
     public int countCards() {
