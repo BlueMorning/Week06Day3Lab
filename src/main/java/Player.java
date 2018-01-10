@@ -41,8 +41,6 @@ public class Player {
         for (Card card: this.cards ){
             this.handTotal += card.getRank().getValue();
         }
-        //System.out.println(this.name);
-        //System.out.println(this.handTotal);
         return this.handTotal;
     }
 
