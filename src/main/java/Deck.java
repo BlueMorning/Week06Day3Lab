@@ -29,6 +29,6 @@ public class Deck {
     }
 
     public Card removeCard(){
-        return cards.remove(0);
+        return this.cards.remove(0);
     }
 }
